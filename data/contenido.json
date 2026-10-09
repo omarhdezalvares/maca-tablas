@@ -1,0 +1,66 @@
+{
+  "mascota": {
+    "nombre": "Chispa",
+    "etapas": [
+      { "min": 0, "emoji": "🥚", "texto": "Un huevo misterioso... ¡gana estrellas para que nazca!" },
+      { "min": 15, "emoji": "🐣", "texto": "¡Está naciendo!" },
+      { "min": 50, "emoji": "🐤", "texto": "¡Chispa ya camina!" },
+      { "min": 120, "emoji": "🐦", "texto": "¡Chispa aprendió a volar!" },
+      { "min": 250, "emoji": "🦜", "texto": "¡Chispa tiene plumas de colores!" },
+      { "min": 450, "emoji": "🦚", "texto": "¡Chispa es un pavo real mágico!" }
+    ]
+  },
+  "tablas": {
+    "1": { "titulo": "El espejo", "emoji": "🪞", "sticker": "🪞", "objeto": "🍎",
+           "truco": "Cualquier número por 1 se queda igual, como cuando te ves en un espejo.",
+           "corto": "por 1 se queda igual." },
+    "2": { "titulo": "Los gemelos", "emoji": "👯", "sticker": "👯", "objeto": "🧦",
+           "truco": "Multiplicar por 2 es sumar el número dos veces: el doble. ¡Como un par de calcetines!",
+           "corto": "es el doble: súmalo dos veces." },
+    "3": { "titulo": "El triciclo", "emoji": "🚲", "sticker": "🛺", "objeto": "🛞",
+           "truco": "Cuenta de 3 en 3: 3, 6, 9, 12, 15... Los resultados de la tabla del 3 hacen cosquillas: sus cifras suman 3, 6 o 9.",
+           "corto": "cuenta de 3 en 3." },
+    "4": { "titulo": "El doble del doble", "emoji": "🐶", "sticker": "🐶", "objeto": "🐾",
+           "truco": "Para multiplicar por 4, saca el doble y luego otra vez el doble. 4 × 6: el doble de 6 es 12, el doble de 12 es 24.",
+           "corto": "saca el doble y otra vez el doble." },
+    "5": { "titulo": "El reloj", "emoji": "⏰", "sticker": "⏰", "objeto": "🖐️",
+           "truco": "Los resultados de la tabla del 5 siempre terminan en 0 o en 5, como los minutos del reloj. Si el número es par termina en 0; si es impar, en 5.",
+           "corto": "termina en 0 o en 5, como el reloj." },
+    "6": { "titulo": "El doble del 3", "emoji": "🐝", "sticker": "🐝", "objeto": "🍯",
+           "truco": "La tabla del 6 es el doble de la del 3. Además, si multiplicas 6 por un número par, el resultado termina igual: 6 × 4 = 24, 6 × 8 = 48.",
+           "corto": "es el doble de la tabla del 3." },
+    "7": { "titulo": "Los siete enanitos", "emoji": "🌈", "sticker": "🌈", "objeto": "🌟",
+           "truco": "La del 7 es la más traviesa, pero ya sabes casi toda: 7 × 2, 7 × 5 y 7 × 10 salen de otras tablas. Solo quedan unas pocas, ¡y tienen rima!",
+           "corto": "usa su rima." },
+    "8": { "titulo": "El pulpo", "emoji": "🐙", "sticker": "🐙", "objeto": "🦑",
+           "truco": "Para multiplicar por 8: doble, doble y doble. 8 × 3: 3 → 6 → 12 → 24. ¡Como los tentáculos del pulpo!",
+           "corto": "doble, doble y doble." },
+    "9": { "titulo": "Los dedos mágicos", "emoji": "🖐️", "sticker": "🪄", "objeto": "💎",
+           "truco": "Abre tus 10 dedos y baja el dedo del número que multiplicas. Los dedos de la izquierda son las decenas y los de la derecha las unidades. ¡Y las cifras del resultado siempre suman 9!",
+           "corto": "usa el truco de los dedos mágicos." },
+    "10": { "titulo": "El sombrero", "emoji": "🎩", "sticker": "🎩", "objeto": "🔟",
+           "truco": "Para multiplicar por 10, ponle un cero al final como si fuera un sombrero. 10 × 7 = 70.",
+           "corto": "ponle un cero de sombrero." }
+  },
+  "rimas": {
+    "3x7": "Tres por siete, veintiuno: ¡como pan en el desayuno!",
+    "3x8": "Tres por ocho, veinticuatro: ¡un payaso en el teatro!",
+    "4x6": "Cuatro por seis, veinticuatro: ¡me pongo a bailar un rato!",
+    "4x7": "Cuatro por siete, veintiocho: ¡mi gato se llama Pocho!",
+    "4x8": "Cuatro por ocho, treinta y dos: ¡vuela, vuela el gorrión!",
+    "6x6": "Seis por seis, treinta y seis: ¡un pastel para el rey!",
+    "6x7": "Seis por siete, cuarenta y dos: ¡salta y salta el ratón!",
+    "6x8": "Seis por ocho, cuarenta y ocho: ¡me como un bizcocho!",
+    "6x9": "Seis por nueve, cincuenta y cuatro: ¡se cayó mi zapato!",
+    "7x7": "Siete por siete, cuarenta y nueve: ¡en la montaña nieve!",
+    "7x8": "5, 6, 7, 8: ¡cincuenta y seis es siete por ocho!",
+    "7x9": "Siete por nueve, sesenta y tres: ¡el pez se pone al revés!",
+    "8x8": "Ocho por ocho, sesenta y cuatro: ¡el ratón huye del gato!",
+    "8x9": "Ocho por nueve, setenta y dos: ¡come helado el gran león!",
+    "9x9": "Nueve por nueve, ochenta y uno: ¡no se me escapa ninguno!"
+  },
+  "animo": {
+    "acierto": ["¡Muy bien!", "¡Genial!", "¡Eres una estrella!", "¡Excelente!", "¡Así se hace!", "¡Wow!", "¡Perfecto!"],
+    "fallo": ["¡Casi! Vamos a recordarlo juntas.", "No pasa nada, ¡así se aprende!", "¡Uy! Mira el truco y lo intentamos otra vez."]
+  }
+}

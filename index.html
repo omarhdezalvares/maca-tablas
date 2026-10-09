@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Maca Tablas">
+  <meta name="theme-color" content="#ffd6e8">
+  <title>Maca Tablas</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✖️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- Bienvenida (primera vez) -->
+  <section id="bienvenida" class="pantalla">
+    <div class="tarjeta centro">
+      <div class="mascota-grande">🥚</div>
+      <h1>¡Hola!</h1>
+      <p>¿Cómo te llamas?</p>
+      <input id="nombre-input" class="campo-grande" maxlength="20" autocomplete="off" placeholder="Tu nombre">
+      <button id="btn-empezar" class="boton grande primario">¡Empezar! 🚀</button>
+    </div>
+  </section>
+
+  <!-- Inicio -->
+  <section id="inicio" class="pantalla">
+    <header class="barra">
+      <h1 id="saludo">¡Hola!</h1>
+      <div class="barra-acciones">
+        <span class="chip" title="Días seguidos">🔥 <b id="racha">0</b></span>
+        <span class="chip" title="Estrellas">⭐ <b id="estrellas">0</b></span>
+        <button id="btn-sonido" class="icono" aria-label="Sonido">🔊</button>
+        <button data-ir="ajustes" class="icono" aria-label="Ajustes">⚙️</button>
+      </div>
+    </header>
+
+    <div class="mascota-caja">
+      <div id="mascota" class="mascota-grande">🥚</div>
+      <div>
+        <p id="mascota-texto" class="mascota-texto"></p>
+        <div class="barra-progreso"><div id="mascota-progreso"></div></div>
+        <p id="mascota-siguiente" class="pequeno"></p>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <button class="opcion-menu destacado" data-accion="repaso">
+        <span class="emoji">🎯</span><span>Repaso del día</span><small id="repaso-info"></small>
+      </button>
+      <button class="opcion-menu" data-accion="aprender"><span class="emoji">🧠</span><span>Aprender</span><small>Trucos y rimas</small></button>
+      <button class="opcion-menu" data-accion="practicar"><span class="emoji">✏️</span><span>Practicar</span><small>Una tabla</small></button>
+      <button class="opcion-menu" data-accion="contrarreloj"><span class="emoji">⏱️</span><span>Contrarreloj</span><small id="record-info">1 minuto</small></button>
+      <button class="opcion-menu" data-accion="memorama"><span class="emoji">🃏</span><span>Memorama</span><small>Encuentra parejas</small></button>
+      <button class="opcion-menu" data-ir="mapa"><span class="emoji">🗺️</span><span>Mi mapa</span><small>Lo que ya sé</small></button>
+      <button class="opcion-menu" data-ir="album"><span class="emoji">🏆</span><span>Stickers</span><small id="album-info"></small></button>
+    </nav>
+  </section>
+
+  <!-- Elegir tabla -->
+  <section id="elegir-tabla" class="pantalla">
+    <header class="barra">
+      <button data-ir="inicio" class="icono" aria-label="Volver">⬅️</button>
+      <h1 id="elegir-titulo">Elige una tabla</h1>
+      <span></span>
+    </header>
+    <div id="lista-tablas" class="cuadricula-tablas"></div>
+  </section>
+
+  <!-- Aprender -->
+  <section id="aprender" class="pantalla">
+    <header class="barra">
+      <button data-ir="elegir-tabla" class="icono" aria-label="Volver">⬅️</button>
+      <h1 id="aprender-titulo">Tabla</h1>
+      <button id="btn-practicar-esta" class="boton primario">¡A practicar!</button>
+    </header>
+    <div class="tarjeta truco">
+      <div id="truco-emoji" class="truco-emoji"></div>
+      <div>
+        <h2 id="truco-titulo"></h2>
+        <p id="truco-texto"></p>
+      </div>
+      <button id="btn-leer-truco" class="icono" aria-label="Escuchar">🔈</button>
+    </div>
+    <p class="pequeno centro">Toca una multiplicación para ver su truco</p>
+    <div id="lista-hechos" class="lista-hechos"></div>
+  </section>
+
+  <!-- Juego (opciones / escribir / huecos / contrarreloj) -->
+  <section id="juego" class="pantalla">
+    <header class="barra">
+      <button id="btn-salir-juego" class="icono" aria-label="Salir">✖️</button>
+      <div class="barra-progreso ancha"><div id="juego-progreso"></div></div>
+      <span id="juego-contador" class="chip">⭐ 0</span>
+    </header>
+    <div class="juego-cuerpo">
+      <div class="pregunta-caja">
+        <div id="pregunta" class="pregunta">7 × 8 = ?</div>
+        <button id="btn-leer-pregunta" class="icono" aria-label="Escuchar">🔈</button>
+      </div>
+      <div id="opciones" class="opciones"></div>
+      <div id="teclado" class="teclado"></div>
+    </div>
+  </section>
+
+  <!-- Resultado -->
+  <section id="resultado" class="pantalla">
+    <div class="tarjeta centro">
+      <div id="resultado-mascota" class="mascota-grande">🐣</div>
+      <h1 id="resultado-titulo">¡Ronda terminada!</h1>
+      <p id="resultado-texto" class="resultado-texto"></p>
+      <div id="resultado-extra"></div>
+      <div class="fila-botones">
+        <button id="btn-otra" class="boton grande primario">Otra vez 🔁</button>
+        <button data-ir="inicio" class="boton grande">Inicio 🏠</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Memorama -->
+  <section id="memorama" class="pantalla">
+    <header class="barra">
+      <button data-ir="inicio" class="icono" aria-label="Volver">⬅️</button>
+      <h1 id="memorama-titulo">Memorama</h1>
+      <span id="memorama-intentos" class="chip">Intentos: 0</span>
+    </header>
+    <div id="cartas" class="cartas"></div>
+  </section>
+
+  <!-- Mapa -->
+  <section id="mapa" class="pantalla">
+    <header class="barra">
+      <button data-ir="inicio" class="icono" aria-label="Volver">⬅️</button>
+      <h1>Mi mapa de tablas</h1>
+      <span></span>
+    </header>
+    <div id="mapa-cuadricula" class="mapa"></div>
+    <div class="leyenda">
+      <span><i class="c0"></i>Sin ver</span><span><i class="c1"></i>Aprendiendo</span>
+      <span><i class="c2"></i>Casi</span><span><i class="c3"></i>¡Lo sé!</span>
+      <span><i class="c4"></i>Muy bien</span><span><i class="c5"></i>Experta</span>
+    </div>
+  </section>
+
+  <!-- Álbum de stickers -->
+  <section id="album" class="pantalla">
+    <header class="barra">
+      <button data-ir="inicio" class="icono" aria-label="Volver">⬅️</button>
+      <h1>Mis stickers</h1>
+      <span></span>
+    </header>
+    <p class="pequeno centro">Gana un sticker cuando te sepas toda una tabla (en verde en tu mapa).</p>
+    <div id="album-cuadricula" class="album"></div>
+  </section>
+
+  <!-- Ajustes -->
+  <section id="ajustes" class="pantalla">
+    <header class="barra">
+      <button data-ir="inicio" class="icono" aria-label="Volver">⬅️</button>
+      <h1>Ajustes</h1>
+      <span></span>
+    </header>
+    <div class="tarjeta formulario">
+      <label>Nombre<input id="cfg-nombre" maxlength="20" autocomplete="off"></label>
+      <h2>Guardar en GitHub</h2>
+      <p class="pequeno">El progreso siempre se guarda en este iPad. Si pones una llave de GitHub, también se guarda en un archivo JSON del repositorio.</p>
+      <label>Usuario / organización<input id="cfg-owner" autocomplete="off" autocapitalize="off"></label>
+      <label>Repositorio<input id="cfg-repo" autocomplete="off" autocapitalize="off"></label>
+      <label>Rama<input id="cfg-branch" autocomplete="off" autocapitalize="off"></label>
+      <label>Archivo<input id="cfg-path" autocomplete="off" autocapitalize="off"></label>
+      <label>Llave (token)<input id="cfg-token" type="password" autocomplete="off" autocapitalize="off"></label>
+      <div class="fila-botones">
+        <button id="btn-guardar-cfg" class="boton primario">Guardar y sincronizar</button>
+        <button id="btn-reiniciar" class="boton peligro">Borrar progreso</button>
+      </div>
+      <p id="cfg-estado" class="pequeno"></p>
+    </div>
+  </section>
+
+  <!-- Detalle de una multiplicación -->
+  <div id="modal" class="modal" hidden>
+    <div class="tarjeta modal-caja">
+      <button id="btn-cerrar-modal" class="icono cerrar" aria-label="Cerrar">✖️</button>
+      <div id="modal-contenido"></div>
+    </div>
+  </div>
+
+  <!-- Aviso de respuesta incorrecta -->
+  <div id="aviso" class="modal" hidden>
+    <div class="tarjeta modal-caja centro">
+      <p id="aviso-animo" class="aviso-animo"></p>
+      <div id="aviso-contenido"></div>
+      <button id="btn-entendido" class="boton grande primario">¡Entendido! 👍</button>
+    </div>
+  </div>
+
+  <div id="sync-estado" class="sync-estado" hidden></div>
+
+  <script src="js/progreso.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
