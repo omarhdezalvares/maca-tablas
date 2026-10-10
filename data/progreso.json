@@ -1,16 +1,82 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 0,
- "cajas": {},
+ "estrellas": 13,
+ "cajas": {
+  "10x6": {
+   "caja": 2,
+   "ultima": 1791604548934,
+   "aciertos": 2,
+   "fallos": 0
+  },
+  "10x10": {
+   "caja": 2,
+   "ultima": 1791604540218,
+   "aciertos": 1,
+   "fallos": 0
+  },
+  "10x1": {
+   "caja": 3,
+   "ultima": 1791604569966,
+   "aciertos": 2,
+   "fallos": 0
+  },
+  "10x9": {
+   "caja": 2,
+   "ultima": 1791604545918,
+   "aciertos": 1,
+   "fallos": 0
+  },
+  "2x1": {
+   "caja": 1,
+   "ultima": 1791604587279,
+   "aciertos": 1,
+   "fallos": 1
+  },
+  "1x6": {
+   "caja": 2,
+   "ultima": 1791604557283,
+   "aciertos": 1,
+   "fallos": 0
+  },
+  "5x7": {
+   "caja": 1,
+   "ultima": 1791604562932,
+   "aciertos": 0,
+   "fallos": 1
+  },
+  "10x8": {
+   "caja": 3,
+   "ultima": 1791604584480,
+   "aciertos": 2,
+   "fallos": 0
+  },
+  "5x4": {
+   "caja": 1,
+   "ultima": 1791604577531,
+   "aciertos": 1,
+   "fallos": 0
+  },
+  "1x8": {
+   "caja": 3,
+   "ultima": 1791604581947,
+   "aciertos": 2,
+   "fallos": 0
+  }
+ },
  "stickers": [],
  "racha": {
-  "dias": 0,
-  "ultimoDia": null
+  "dias": 1,
+  "ultimoDia": "2026-10-09"
  },
- "historial": {},
+ "historial": {
+  "2026-10-09": {
+   "preguntas": 15,
+   "aciertos": 13
+  }
+ },
  "records": {
-  "contrarreloj": 0
+  "contrarreloj": 13
  },
- "actualizado": 1791604331846
+ "actualizado": 1791604590698
 }
