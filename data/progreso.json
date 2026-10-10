@@ -1,18 +1,18 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 85,
+ "estrellas": 95,
  "cajas": {
   "10x6": {
-   "caja": 2,
-   "ultima": 1791604548934,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791658914224,
+   "aciertos": 3,
    "fallos": 0
   },
   "10x10": {
-   "caja": 2,
-   "ultima": 1791604540218,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791658922724,
+   "aciertos": 2,
    "fallos": 0
   },
   "10x1": {
@@ -22,15 +22,15 @@
    "fallos": 0
   },
   "10x9": {
-   "caja": 2,
-   "ultima": 1791604545918,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791658917825,
+   "aciertos": 2,
    "fallos": 0
   },
   "2x1": {
-   "caja": 2,
-   "ultima": 1791604885486,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791658931089,
+   "aciertos": 3,
    "fallos": 1
   },
   "1x6": {
@@ -41,8 +41,8 @@
   },
   "5x7": {
    "caja": 1,
-   "ultima": 1791604904468,
-   "aciertos": 1,
+   "ultima": 1791658906327,
+   "aciertos": 2,
    "fallos": 1
   },
   "10x8": {
@@ -52,9 +52,9 @@
    "fallos": 0
   },
   "5x4": {
-   "caja": 2,
-   "ultima": 1791604879854,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791658910941,
+   "aciertos": 3,
    "fallos": 0
   },
   "1x8": {
@@ -160,33 +160,50 @@
    "fallos": 0
   },
   "1x9": {
-   "caja": 2,
-   "ultima": 1791605252770,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791658940788,
+   "aciertos": 2,
    "fallos": 0
   },
   "1x10": {
+   "caja": 3,
+   "ultima": 1791658934024,
+   "aciertos": 2,
+   "fallos": 0
+  },
+  "2x2": {
    "caja": 2,
-   "ultima": 1791605275951,
+   "ultima": 1791658928473,
+   "aciertos": 1,
+   "fallos": 0
+  },
+  "2x3": {
+   "caja": 2,
+   "ultima": 1791658937523,
    "aciertos": 1,
    "fallos": 0
   }
  },
  "stickers": [
-  3
+  3,
+  1
  ],
  "racha": {
-  "dias": 1,
-  "ultimoDia": "2026-10-09"
+  "dias": 2,
+  "ultimoDia": "2026-10-10"
  },
  "historial": {
   "2026-10-09": {
    "preguntas": 86,
    "aciertos": 83
+  },
+  "2026-10-10": {
+   "preguntas": 10,
+   "aciertos": 10
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791605986607
+ "actualizado": 1791658941593
 }
