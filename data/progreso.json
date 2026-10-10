@@ -62,6 +62,12 @@
    "ultima": 1791604581947,
    "aciertos": 2,
    "fallos": 0
+  },
+  "3x3": {
+   "caja": 1,
+   "ultima": 1791604611530,
+   "aciertos": 0,
+   "fallos": 1
   }
  },
  "stickers": [],
@@ -71,12 +77,12 @@
  },
  "historial": {
   "2026-10-09": {
-   "preguntas": 15,
+   "preguntas": 16,
    "aciertos": 13
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791604590698
+ "actualizado": 1791604615013
 }
