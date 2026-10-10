@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 133,
+ "estrellas": 143,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -263,62 +263,62 @@
   },
   "6x10": {
    "caja": 4,
-   "ultima": 1791660379530,
-   "aciertos": 3,
+   "ultima": 1791660474869,
+   "aciertos": 4,
    "fallos": 0
   },
   "6x7": {
-   "caja": 1,
-   "ultima": 1791660384229,
-   "aciertos": 2,
-   "fallos": 1
-  },
-  "6x1": {
-   "caja": 3,
-   "ultima": 1791660350814,
-   "aciertos": 2,
-   "fallos": 0
-  },
-  "6x6": {
-   "caja": 1,
-   "ultima": 1791660336916,
-   "aciertos": 2,
-   "fallos": 0
-  },
-  "6x5": {
    "caja": 2,
-   "ultima": 1791660304886,
-   "aciertos": 2,
-   "fallos": 0
-  },
-  "6x8": {
-   "caja": 1,
-   "ultima": 1791660376912,
+   "ultima": 1791660479954,
    "aciertos": 3,
    "fallos": 1
   },
-  "6x2": {
+  "6x1": {
+   "caja": 4,
+   "ultima": 1791660483004,
+   "aciertos": 3,
+   "fallos": 0
+  },
+  "6x6": {
+   "caja": 2,
+   "ultima": 1791660458123,
+   "aciertos": 3,
+   "fallos": 0
+  },
+  "6x5": {
    "caja": 3,
-   "ultima": 1791660310319,
-   "aciertos": 2,
+   "ultima": 1791660462438,
+   "aciertos": 3,
+   "fallos": 0
+  },
+  "6x8": {
+   "caja": 2,
+   "ultima": 1791660486953,
+   "aciertos": 4,
+   "fallos": 1
+  },
+  "6x2": {
+   "caja": 4,
+   "ultima": 1791660491935,
+   "aciertos": 3,
    "fallos": 0
   },
   "6x3": {
-   "caja": 2,
-   "ultima": 1791660330034,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791660453490,
+   "aciertos": 3,
    "fallos": 0
   },
   "6x4": {
-   "caja": 2,
-   "ultima": 1791660313318,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791660447923,
+   "aciertos": 3,
    "fallos": 0
   },
   "6x9": {
-   "caja": 1,
-   "ultima": 1791660324284,
-   "aciertos": 2,
+   "caja": 2,
+   "ultima": 1791660467938,
+   "aciertos": 3,
    "fallos": 0
   }
  },
@@ -336,12 +336,12 @@
    "aciertos": 83
   },
   "2026-10-10": {
-   "preguntas": 54,
-   "aciertos": 48
+   "preguntas": 64,
+   "aciertos": 58
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791660385032
+ "actualizado": 1791660492739
 }
