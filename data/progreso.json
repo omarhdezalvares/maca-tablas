@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 192,
+ "estrellas": 196,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -323,14 +323,14 @@
   },
   "7x5": {
    "caja": 5,
-   "ultima": 1791825138845,
-   "aciertos": 5,
+   "ultima": 1791825169560,
+   "aciertos": 6,
    "fallos": 0
   },
   "7x2": {
-   "caja": 3,
-   "ultima": 1791825069034,
-   "aciertos": 5,
+   "caja": 4,
+   "ultima": 1791825180543,
+   "aciertos": 6,
    "fallos": 0
   },
   "7x6": {
@@ -340,21 +340,21 @@
    "fallos": 2
   },
   "7x9": {
-   "caja": 4,
-   "ultima": 1791825134395,
+   "caja": 1,
+   "ultima": 1791825183759,
    "aciertos": 5,
-   "fallos": 0
+   "fallos": 1
   },
   "7x8": {
-   "caja": 1,
-   "ultima": 1791825125479,
-   "aciertos": 5,
+   "caja": 2,
+   "ultima": 1791825172911,
+   "aciertos": 6,
    "fallos": 2
   },
   "7x4": {
-   "caja": 1,
-   "ultima": 1791825098147,
-   "aciertos": 5,
+   "caja": 2,
+   "ultima": 1791825176393,
+   "aciertos": 6,
    "fallos": 0
   },
   "7x3": {
@@ -400,12 +400,12 @@
    "aciertos": 87
   },
   "2026-10-12": {
-   "preguntas": 22,
-   "aciertos": 20
+   "preguntas": 27,
+   "aciertos": 24
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791825139648
+ "actualizado": 1791825188393
 }
