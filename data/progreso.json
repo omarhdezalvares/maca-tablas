@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 196,
+ "estrellas": 206,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -323,62 +323,62 @@
   },
   "7x5": {
    "caja": 5,
-   "ultima": 1791825169560,
-   "aciertos": 6,
+   "ultima": 1791825219740,
+   "aciertos": 7,
    "fallos": 0
   },
   "7x2": {
-   "caja": 4,
-   "ultima": 1791825180543,
-   "aciertos": 6,
+   "caja": 5,
+   "ultima": 1791825233591,
+   "aciertos": 7,
    "fallos": 0
   },
   "7x6": {
-   "caja": 2,
-   "ultima": 1791825107197,
-   "aciertos": 4,
+   "caja": 3,
+   "ultima": 1791825210708,
+   "aciertos": 5,
    "fallos": 2
   },
   "7x9": {
-   "caja": 1,
-   "ultima": 1791825183759,
-   "aciertos": 5,
+   "caja": 2,
+   "ultima": 1791825206158,
+   "aciertos": 6,
    "fallos": 1
   },
   "7x8": {
-   "caja": 2,
-   "ultima": 1791825172911,
-   "aciertos": 6,
+   "caja": 3,
+   "ultima": 1791825224421,
+   "aciertos": 7,
    "fallos": 2
   },
   "7x4": {
-   "caja": 2,
-   "ultima": 1791825176393,
-   "aciertos": 6,
+   "caja": 3,
+   "ultima": 1791825202675,
+   "aciertos": 7,
    "fallos": 0
   },
   "7x3": {
-   "caja": 2,
-   "ultima": 1791825111464,
-   "aciertos": 5,
+   "caja": 3,
+   "ultima": 1791825215307,
+   "aciertos": 6,
    "fallos": 1
   },
   "7x10": {
    "caja": 5,
-   "ultima": 1791825072550,
-   "aciertos": 5,
+   "ultima": 1791825236573,
+   "aciertos": 6,
    "fallos": 0
   },
   "7x7": {
-   "caja": 1,
-   "ultima": 1791825085866,
-   "aciertos": 5,
+   "caja": 2,
+   "ultima": 1791825241588,
+   "aciertos": 6,
    "fallos": 1
   },
   "7x1": {
    "caja": 5,
-   "ultima": 1791825076717,
-   "aciertos": 5,
+   "ultima": 1791825230290,
+   "aciertos": 6,
    "fallos": 0
   }
  },
@@ -400,12 +400,12 @@
    "aciertos": 87
   },
   "2026-10-12": {
-   "preguntas": 27,
-   "aciertos": 24
+   "preguntas": 37,
+   "aciertos": 34
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791825188393
+ "actualizado": 1791825242391
 }
