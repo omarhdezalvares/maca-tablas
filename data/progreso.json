@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 266,
+ "estrellas": 268,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -365,8 +365,8 @@
   },
   "7x10": {
    "caja": 5,
-   "ultima": 1791825708128,
-   "aciertos": 12,
+   "ultima": 1791825731077,
+   "aciertos": 13,
    "fallos": 0
   },
   "7x7": {
@@ -377,8 +377,8 @@
   },
   "7x1": {
    "caja": 5,
-   "ultima": 1791825682063,
-   "aciertos": 12,
+   "ultima": 1791825734192,
+   "aciertos": 13,
    "fallos": 0
   }
  },
@@ -401,12 +401,12 @@
    "aciertos": 87
   },
   "2026-10-12": {
-   "preguntas": 97,
-   "aciertos": 94
+   "preguntas": 99,
+   "aciertos": 96
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791825719114
+ "actualizado": 1791825739510
 }
