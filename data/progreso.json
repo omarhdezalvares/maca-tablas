@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 308,
+ "estrellas": 318,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -40,9 +40,9 @@
    "fallos": 0
   },
   "5x7": {
-   "caja": 2,
-   "ultima": 1791659343906,
-   "aciertos": 3,
+   "caja": 3,
+   "ultima": 1791847045624,
+   "aciertos": 4,
    "fallos": 1
   },
   "10x8": {
@@ -172,15 +172,15 @@
    "fallos": 0
   },
   "2x2": {
-   "caja": 2,
-   "ultima": 1791658928473,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791847024727,
+   "aciertos": 2,
    "fallos": 0
   },
   "2x3": {
-   "caja": 2,
-   "ultima": 1791659387618,
-   "aciertos": 2,
+   "caja": 3,
+   "ultima": 1791847029361,
+   "aciertos": 3,
    "fallos": 0
   },
   "4x4": {
@@ -196,9 +196,9 @@
    "fallos": 0
   },
   "4x5": {
-   "caja": 2,
-   "ultima": 1791659158421,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791847004261,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x7": {
@@ -220,15 +220,15 @@
    "fallos": 1
   },
   "4x3": {
-   "caja": 1,
-   "ultima": 1791846977381,
-   "aciertos": 2,
+   "caja": 2,
+   "ultima": 1791846999879,
+   "aciertos": 3,
    "fallos": 1
   },
   "4x1": {
    "caja": 2,
-   "ultima": 1791659276845,
-   "aciertos": 1,
+   "ultima": 1791846989380,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x6": {
@@ -256,9 +256,9 @@
    "fallos": 1
   },
   "2x10": {
-   "caja": 2,
-   "ultima": 1791659358437,
-   "aciertos": 1,
+   "caja": 3,
+   "ultima": 1791847009811,
+   "aciertos": 2,
    "fallos": 0
   },
   "6x10": {
@@ -269,8 +269,8 @@
   },
   "6x7": {
    "caja": 2,
-   "ultima": 1791660479954,
-   "aciertos": 3,
+   "ultima": 1791847041758,
+   "aciertos": 4,
    "fallos": 1
   },
   "6x1": {
@@ -281,8 +281,8 @@
   },
   "6x6": {
    "caja": 2,
-   "ultima": 1791660458123,
-   "aciertos": 3,
+   "ultima": 1791846996262,
+   "aciertos": 4,
    "fallos": 0
   },
   "6x5": {
@@ -317,8 +317,8 @@
   },
   "6x9": {
    "caja": 2,
-   "ultima": 1791660467938,
-   "aciertos": 3,
+   "ultima": 1791847018326,
+   "aciertos": 4,
    "fallos": 0
   },
   "7x5": {
@@ -461,12 +461,12 @@
    "aciertos": 87
   },
   "2026-10-12": {
-   "preguntas": 140,
-   "aciertos": 136
+   "preguntas": 150,
+   "aciertos": 146
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791846978184
+ "actualizado": 1791847046427
 }
