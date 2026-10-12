@@ -1,7 +1,7 @@
 {
  "version": 1,
  "nombre": "Macarita🌸",
- "estrellas": 298,
+ "estrellas": 308,
  "cajas": {
   "10x6": {
    "caja": 3,
@@ -184,15 +184,15 @@
    "fallos": 0
   },
   "4x4": {
-   "caja": 1,
-   "ultima": 1791659079811,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846964815,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x8": {
-   "caja": 1,
-   "ultima": 1791659155372,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846955148,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x5": {
@@ -202,28 +202,28 @@
    "fallos": 0
   },
   "4x7": {
-   "caja": 1,
-   "ultima": 1791659191901,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846950100,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x2": {
-   "caja": 1,
-   "ultima": 1791659312859,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846971731,
+   "aciertos": 2,
    "fallos": 1
   },
   "4x9": {
-   "caja": 1,
-   "ultima": 1791659378853,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846939483,
+   "aciertos": 2,
    "fallos": 1
   },
   "4x3": {
    "caja": 1,
-   "ultima": 1791659274413,
-   "aciertos": 1,
-   "fallos": 0
+   "ultima": 1791846977381,
+   "aciertos": 2,
+   "fallos": 1
   },
   "4x1": {
    "caja": 2,
@@ -232,27 +232,27 @@
    "fallos": 0
   },
   "4x6": {
-   "caja": 1,
-   "ultima": 1791659295143,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846944469,
+   "aciertos": 2,
    "fallos": 0
   },
   "4x10": {
-   "caja": 1,
-   "ultima": 1791659309808,
-   "aciertos": 1,
+   "caja": 2,
+   "ultima": 1791846934971,
+   "aciertos": 2,
    "fallos": 0
   },
   "2x5": {
-   "caja": 1,
-   "ultima": 1791659337756,
-   "aciertos": 0,
+   "caja": 2,
+   "ultima": 1791846974081,
+   "aciertos": 1,
    "fallos": 1
   },
   "5x5": {
-   "caja": 1,
-   "ultima": 1791659353339,
-   "aciertos": 0,
+   "caja": 2,
+   "ultima": 1791846967680,
+   "aciertos": 1,
    "fallos": 1
   },
   "2x10": {
@@ -461,12 +461,12 @@
    "aciertos": 87
   },
   "2026-10-12": {
-   "preguntas": 129,
-   "aciertos": 126
+   "preguntas": 140,
+   "aciertos": 136
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791827724508
+ "actualizado": 1791846978184
 }
