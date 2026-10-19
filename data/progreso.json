@@ -184,10 +184,10 @@
    "fallos": 0
   },
   "4x4": {
-   "caja": 2,
-   "ultima": 1791846964815,
+   "caja": 1,
+   "ultima": 1792374869445,
    "aciertos": 2,
-   "fallos": 0
+   "fallos": 1
   },
   "4x8": {
    "caja": 2,
@@ -449,7 +449,7 @@
  ],
  "racha": {
   "dias": 1,
-  "ultimoDia": "2026-10-12"
+  "ultimoDia": "2026-10-18"
  },
  "historial": {
   "2026-10-09": {
@@ -463,10 +463,14 @@
   "2026-10-12": {
    "preguntas": 150,
    "aciertos": 146
+  },
+  "2026-10-18": {
+   "preguntas": 1,
+   "aciertos": 0
   }
  },
  "records": {
   "contrarreloj": 13
  },
- "actualizado": 1791847046427
+ "actualizado": 1792374956053
 }
